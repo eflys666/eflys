@@ -1,0 +1,24 @@
+http://www.awardspace.com
+
+https://cp1.awardspace.net/beta/start/
+
+http://eflys.atwebpages.com
+
+Domain Names
+Nameserver 1: ns5.awardspace.com
+Nameserver 2: ns6.awardspace.com
+
+
+Keep this login information for your records:
+Client ID: 1479524
+Login email: eflys666@gmail.com
+Hostnames: f10-preview.awardspace.net
+FTP Username:1479524
+
+MySQL数据库信息
+
+端口Port：3306容量: 10 MB
+MySQL数据库地址:$mysql_host = "fdb6.awardspace.net";
+MySQL数据库的名称:$mysql_database = "1479524_eflys";
+MySQL用  户  名：$mysql_user = "1479524_eflys";
+MySQL用户的密码:0000000000

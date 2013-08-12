@@ -1,0 +1,12 @@
+@gae, app.yaml这样写：
+application: your-gae-id
+version: 1
+runtime: python
+api_version: 1
+handlers:
+- url: /
+static_files: wwwroot/index.html
+upload: wwwroot/index.html
+- url: /
+static_dir: wwwroot
+把所有文件放在wwwroot目录下，wwwroot可以改成你自己的目录

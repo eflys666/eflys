@@ -1,0 +1,18 @@
+利用反向代理实现GAE绑定域名
+利用反向代理实现GAE绑定域名
+
+GAE(Google App Engine ) 相信很多朋友都有知道，Google提供的非常强大的云服务. 
+ghs.google.com处于半被墙状态！反向代理绑域名下面提供2个方法！ 
+条件： apache服务器（最好是Linux主机） 支持自定义.htaccess 当然最重要的是要有反向代理的权限.（一些免费主机会禁用） 
+
+方法一： 直接用一个域名反向代理到你的GAE二级域名。操作很简单，加入下面代码即可。 
+在你的htaccess文件加入这一段（自行修改域名）例如我有一个域名是a.com，在htaccess文件加了这一段，那么当我访问a.com，也就等于访问了b.com，
+不过是以代理的方式。
+RewriteEngine On RewriteBase / RewriteRule ^(.*)$ http://b.com/$1 [P] 
+
+方法二： 首先反向代理到ghs，然后再你要绑定的域名cname到这个反向代理的域名，即可实现绑定域名。
+这个就等于是绑定好域名了！ 
+例如我把ghs.a.com 反向代理到ghs.google.com，然后把www.b.com再cname到ghs.google.com，
+即可实现绑定域名. 
+
+RewriteEngine On RewriteBase / RewriteRule ^(.*)$ http://ghs.google.com/$1 [P]

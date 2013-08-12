@@ -1,0 +1,40 @@
+cd C:\
+cd google_appengine
+appcfg.py update -R F:\eflyso/
+
+eflyso@gmail.com
+wsm56832137
+
+Congratulations!
+
+We just wanted to let you know that your App Engine application:
+  eflyso (snplayer)
+has been be successfully whitelisted to deploy PHP applications.
+
+This means you can now deploy PHP projects to this application using
+the appcfy.py tool available in the Google App Engine for PHP SDK.
+
+While we're in Preview you can keep up to date with the latest news on
+Google App Engine for PHP by following our team blog:
+  http://gaeforphp-blog.appspot.com/
+(and yes, it's running WordPress)
+
+You can also read our online documentation:
+  https://developers.google.com/appengine/docs/php/gettingstarted/
+  https://developers.google.com/appengine/docs/php/
+
+If you're setting up a WordPress blog, don't forget our tutorial:
+  https://developers.google.com/appengine/articles/wordpress
+
+You can get help from other App Engine developers on Stack Overflow:
+  http://stackoverflow.com/questions/tagged/google-app-engine+php
+
+And if you find a bug, or would like to request a feature, you can
+do so on our Issue Tracker:
+  https://code.google.com/p/googleappengine/issues/list?q=label:Language-PHP&sort=-stars
+
+Thanks for being one of the first to try Google App Engine for PHP.
+
+Enjoy! We can't wait to see what you come up with.
+
+- The App Engine Team

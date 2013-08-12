@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^(.*)$ http://eflyso.appspot.com/$1[P]
+</IfModule>

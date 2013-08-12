@@ -1,0 +1,72 @@
+https://appengine.google.com/
+https://developers.google.com/appengine/downloads
+https://developers.google.com/appengine/docs/php/gettingstarted/installingwindows
+
+Application: eflyso
+
+eflyso.appspot.com
+
+http://googleappengine.googlecode.com/files/google_appengine_1.8.2.zip
+
+GAE FOR WordPress
+
+申请goolge企业应用套件:http://www.google.com/enterprise/apps/business/
+  wp@eflys.mygbiz.com。 wp@gae.usa.cc
+https://www.google.com/a/gae.usa.cc/ServiceLogin?service=CPanel&passive=1209600&cpbps=1&continue=https://admin.google.com/AdminHome?wmc%3D1%26sig%3DALjLGbPMP2tlk34sAMlxADTUdnCGSiraeA%23Domains:&followup=https://admin.google.com/AdminHome?wmc%3D1%26sig%3DALjLGbPMP2tlk34sAMlxADTUdnCGSiraeA%23Domains:
+  cmpv@cmpv.mygbiz.com
+  s@sor.mygbiz.com
+
+
+如何删除GAE中已上传的文件
+
+GAE使用过程中，因为上传方式和后台并不能很直观的显示出相关数据，再加上免费用户官方给出的1000个文件的使用限制，还有的朋友测试时会残留大量无用文件，所以后期可能需要将其删除。
+其实只需要将你使用的Project中的app.yaml中的version改成另外一个整数，比如：2。
+然后update你的项目，之后到你app engine中的Dashboard下的Administration-Versions中选择将某个Version设置成Default。
+最后再将以前的Version Delete掉就可以了。
+
+
+2、以下我亲自测试目前可以使用的免费MySQL数据库空间：
+1、Bizhostnet（地址：http://free-mysql.bizhostnet.com/）提供免费的远程MySQL数据库空间（一个已经算是老牌的免费MySQL数据库空间服务，而且现在运行正常。）
+2、freemysql（http://www.freemysql.net）提供免费的MySQL数据库空间，有长达6年的历史，但是你依然需要及时备份
+3、db4free（http://db4free.net/d4f_apply.php）注册和使用都很简单，没有什么特殊的要求，唯一的要求就是要求做好天天备份工作
+
+
+
+申请地址:http://www.db4free.net
+
+
+对于PHP连接远程MySql数据库，通常要使用如下的语句： 
+
+var $serverName = 'db4free.net:3306';//数据库服务器 144.76.19.105
+var $dbName = 'dbname';//数据库名 
+var $dbUsername = 'username';//用户名 
+var $dbPassword = '123';//登陆密码 
+mysql_connect($serverName,$dbUsername ,$dbPassword); 
+mysql_select_db($dbName); 
+
+
+远程调用方法:
+Server name: db4free.org  db4free.net
+User name: xxxx
+Database name: xxxx42
+MySQL password:xxxxxxxxx2
+
+Database: eflys
+Username: eflys000
+Allowed IPs: eflyso.appspot.com
+Collation: utf8_general_ci
+Email: eflys000@gmail.com
+
+Database: eflyso
+Username: eflys
+
+Database: eflyswp
+Username: eflys666
+
+Database: eflyse
+Username: eflyse
+Allowed IPs: %
+Collation: utf8_general_ci
+Email: eflys666@163.com
+
+

@@ -1,0 +1,10 @@
+txt: google-site-verification=QwUKMlIT5WJ4wLWbub-jdmIGTrqjvDvLt222PshLWWM
+wp.gae.usa.cc:ghs.googlehosted.com  ghs.1.google.com    ghs.google.com
+
+
+MX 服务器地址	优先级
+   ASPMX.L.GOOGLE.COM	10
+   ALT1.ASPMX.L.GOOGLE.COM	20
+   ALT2.ASPMX.L.GOOGLE.COM	20
+   ASPMX2.GOOGLEMAIL.COM	30
+   ASPMX3.GOOGLEMAIL.COM	30
